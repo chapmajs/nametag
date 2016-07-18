@@ -7,10 +7,10 @@ This nametag was cobbled together with a PIC16F88 and some DL2416 smart displays
 
 I didn't draw up a schematic for this one, it was built point-to-point over two evenings on a piece of protoboard with Kynar wire. The display connects to the PIC as follows:
 
-Display `D0` - `D6` -> PIC `PORTB` `RB0` - `RB6`
-Display `A0`, `A1` -> PIC `PORTA` `RA0`, `RA1`
-Display `/WR` -> PIC `PORTA`, `RA7`
-Display `/BL` -> PIC `PORTA`, `RA6`
+* Display `D0` - `D6` -> PIC `PORTB` `RB0` - `RB6`
+* Display `A0`, `A1` -> PIC `PORTA` `RA0`, `RA1`
+* Display `/WR` -> PIC `PORTA`, `RA7`
+* Display `/BL` -> PIC `PORTA`, `RA6`
 
 The displays' `/CE` lines are controlled by the PIC's `PORTA`, `RA2`. The rightmost display connects directly to `RA2`, while the leftmost display is driven through a one-transistor inverter. Any small signal NPN will work, I used a 2N3904. This allows the displays to appear as a single block of 8 consecutive addresses, which makes programming simpler.
 
