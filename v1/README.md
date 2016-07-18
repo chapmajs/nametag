@@ -1,7 +1,7 @@
 LED Nametag Version 1
 ---------------------
 
-This nametag was cobbled together with a PIC16F88 and some DL2416 smart displays on a chunk of protoboard. A quick junk drawer solution to having run out of time to lay out the PC board for the device I actually wanted to build! This is the nametag I had at [The Eleventh HOPE](https://hope.net).
+This nametag was cobbled together with a PIC16F88 and some DL2416 smart displays on a chunk of protoboard. A quick junk drawer solution to having run out of time to lay out the PC board for the device I actually wanted to build! This is the nametag I had at [The Eleventh HOPE](https://hope.net). Note that the PIC16F88 was used because I had some in my box of old PICs from previous projects, I wouldn't recommend it for new projects.
 
 ### Connections
 
