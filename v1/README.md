@@ -28,4 +28,4 @@ If you're updating more than one character at a time (scrolling effect), you'll 
 
 ### Display String
 
-The display string is a NULL-terminated ASCII string in EEPROM starting at `0x00`. My firmware implements a circular array using the EEPROM so that you can keep calling `NEXTEE` and auto-wrap to the beginning of the array when you hit NULL. The 16-segment version of the DL2416 only supports uppercase ASCII characters; see [the datasheet]() for more information. If you're using one of the newer dot matrix DL2416 workalikes, you can use lowercase ASCII too.
+The display string is a NULL-terminated ASCII string in EEPROM starting at `0x00`. My firmware implements a circular array using the EEPROM so that you can keep calling `NEXTEE` and auto-wrap to the beginning of the array when you hit NULL. The 16-segment version of the DL2416 only supports uppercase ASCII characters; see [the datasheet](https://github.com/chapmajs/nametag/blob/master/datasheets/DL2416.pdf) for more information. If you're using one of the newer dot matrix DL2416 workalikes, you can use lowercase ASCII too.
